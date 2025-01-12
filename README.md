@@ -1,0 +1,3 @@
+# Lazy Evaluation Bug in Haskell
+
+This repository demonstrates a subtle bug related to lazy evaluation in Haskell. The function `potentialBug` in `potentialBug.hs` attempts to compute the sum of an infinite list, resulting in non-termination. The solution, provided in `potentialBugSolution.hs`, addresses this issue by introducing a mechanism to limit the number of elements considered from the infinite list.
